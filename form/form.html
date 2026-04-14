@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>表單作業</title>
+    <link
+      rel="shortcut icon"
+      href="https://ssl.gstatic.com/docs/spreadsheets/forms/favicon_qp2.png"
+    />
+    <link rel="stylesheet" href="../reset.css" />
+    <link rel="stylesheet" href="form.css" />
+  </head>
+  <body>
+    <form action="" method="get">
+      <section class="header">
+        <div class="head_div"></div>
+        <div class="header_1">
+          <h1>F2E02 表單練習</h1>
+          <p class="font146667 margin12">僅供新尖兵 F2E02 表單切版練習作業</p>
+        </div>
+        <div class="line"></div>
+        <div class="header_2 font14">
+          <a
+            href="https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fdocs.google.com%2Fforms%2Fd%2Fe%2F1FAIpQLSeRMAUDqY6GEPiHotfXZQLvGOQgB1nLfxA_TW-uwlC5vb8CWQ%2Fviewform%3Ffbzx%3D4645912025896318869&dsh=S708409916%3A1776150917698969&flowName=GlifWebSignIn&flowEntry=ServiceLogin&ifkv=AT1y2_WSUd2Kbo9zVuOB2hrUgf2aGZu1VRvyYF6sKbvqZnCjdfZ3uIwEeFkm00_232YHpK8OQj2daA"
+            class="link"
+            >登入 Google </a
+          ><span>即可儲存進度。</span>
+          <a href="" class="link">瞭解詳情</a>
+        </div>
+        <div class="line"></div>
+        <div class="header_3">
+          <p class="font14 red">* 表示必填問題</p>
+        </div>
+      </section>
+      <section>
+        <div class="margin16">
+          <label for="name">姓名</label><span class="red padding4">*</span>
+        </div>
+        <div>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="您的回答"
+            required
+          />
+        </div>
+      </section>
+
+      <section>
+        <div class="margin16">
+          <label for="email">信箱</label><span class="red padding4">*</span>
+        </div>
+        <div>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="您的回答"
+            required
+          />
+        </div>
+      </section>
+      <section>
+        <div class="margin16">
+          <label for="birth">生日</label>
+        </div>
+        <div>
+          <p class="date">日期</p>
+          <input type="date" name="birth" id="birth" />
+        </div>
+      </section>
+      <section>
+        <div class="margin16">
+          <label for="whisper">想跟老師說悄悄話</label>
+        </div>
+        <div>
+          <input
+            type="text"
+            name="whisper"
+            id="whisper"
+            placeholder="您的回答"
+          />
+        </div>
+      </section>
+      <section>
+        <p class="margin16">喜歡的顏色</p>
+        <div>
+          <input type="radio" name="color" id="yallow" />
+          <label for="yallow">黃</label>
+        </div>
+        <div>
+          <input type="radio" name="color" id="green" />
+          <label for="green">綠</label>
+        </div>
+        <div>
+          <input type="radio" name="color" id="red" />
+          <label for="red">紅</label>
+        </div>
+      </section>
+      <section>
+        <p class="margin16">喜歡吃的飲食類型</p>
+        <div>
+          <input type="checkbox" name="food" id="Chinese" />
+          <label for="Chinese">中式</label>
+        </div>
+        <div>
+          <input type="checkbox" name="food" id="Italian" />
+          <label for="Italian">義式</label>
+        </div>
+        <div>
+          <input type="checkbox" name="food" id="Japanese" />
+          <label for="Japanese">日式</label>
+        </div>
+        <div>
+          <input type="checkbox" name="food" id="Korean" />
+          <label for="Korean">韓式</label>
+        </div>
+        <div>
+          <input type="checkbox" name="food" id="American" />
+          <label for="American">美式</label>
+        </div>
+        <div>
+          <input type="checkbox" name="food" id="Thai" />
+          <label for="Thai">泰式</label>
+        </div>
+      </section>
+      <section>
+        <p class="margin16">最想去的國家</p>
+        <div>
+          <select name="country" id="country" class="font14">
+            <option value="" selected disabled>選擇</option>
+            <optgroup label="亞洲">
+              <option value="Japan">日本</option>
+              <option value="Korea">韓國</option>
+              <option value="Thailand">泰國</option>
+            </optgroup>
+            <optgroup label="歐洲">
+              <option value="German">德國</option>
+              <option value="England">英國</option>
+            </optgroup>
+            <optgroup label="北美洲">
+              <option value="Canada">加拿大</option>
+              <option value="America">美國</option>
+            </optgroup>
+          </select>
+        </div>
+      </section>
+      <div class="bottom">
+        <button type="submit" class="btnsubmit">提交</button>
+        <button type="reset" class="btnreset">清除表單</button>
+      </div>
+    </form>
+    <footer class="foot">
+      <div class="foot1">
+        <p>請勿利用 Google 表單送出密碼。</p>
+      </div>
+      <div class="foot2">
+        <p>這份表單是在 五倍紅寶石程式資訊教育股份有限公司 中建立。</p>
+        <p class="inline">這份表單很可疑嗎？</p>
+        <a
+          href="https://drive.google.com/abuse?id=AKkXjoydXWY0mgYIjdBkcdDZLucty17BSF7IBJtYLVLaa39SegSoJEHHs-07XbfRApdQoJAK6ILK0OitJ556aac:0&docurl=https://docs.google.com/forms/d/e/1FAIpQLSeRMAUDqY6GEPiHotfXZQLvGOQgB1nLfxA_TW-uwlC5vb8CWQ/viewform"
+          class="bottomlink"
+          >報告</a
+        >
+      </div>
+      <div class="foot3">
+        <a
+          href="https://workspace.google.com/products/forms/?utm_source=product&utm_medium=forms_logo&utm_campaign=forms"
+          >Google 表單</a
+        >
+      </div>
+    </footer>
+  </body>
+</html>
