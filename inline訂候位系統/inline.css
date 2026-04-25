@@ -1,0 +1,91 @@
+:root{
+    --primary-color:#ec6300;
+    --secondary-color:#064c8c;
+    --text-color:#252932;
+    --link-color:#000080;
+    --shadow-color:rgba(0, 0, 0, 0.16);
+}
+
+body{
+    color: var(--text-color);
+}
+
+header{
+    height: 90px;
+    padding: 0 7rem 0 9rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0 5px 0 var(--shadow-color);
+}
+
+header nav{
+    gap: 5px;
+}
+
+a:hover{
+    color: var(--primary-color);
+}
+
+.header-logo{
+    width: 90px;
+    margin-top: 15px;
+}
+
+.menu{
+    display: flex;
+    gap: 2rem;
+    color: #505563;
+    font-size: 15px;
+}
+
+.menu > li{
+    position: relative;
+    align-self: center;
+}
+
+.menu li:hover .sub-menu {
+    display: block;
+}
+
+.sub-menu{
+    background-color: #fff;
+    display: none;
+    position: absolute;
+}
+
+.sub-menu li{
+    width: 170px;
+    padding: 10px 5px;
+}
+
+.sub-menu li {
+    padding: 10px 0;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.sub-menu li:last-child {
+    border-bottom: none;
+}
+
+.menu-button{
+    display: flex;
+    background-color: #da3743;
+    color: #fff;
+    font-size: 18px;
+    padding: 5px 30px;
+    border-radius: 30px;
+    align-items: center;
+}
+
+.menu-button:hover{
+    color: #fff;
+    box-shadow: 0 0 5px 1px var(--shadow-color);
+}
+
+.menu-button img{
+    width: 27px;
+    margin-right: 10px;
+}
+
+
