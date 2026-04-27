@@ -154,11 +154,11 @@ a:hover{
 .feature{
     padding-bottom: 200px;
     background-image: 
-        url(./img/feature-group1-bg.png),
+        url(https://inline.company/wp-content/uploads/2023/12/New-official-website_v2_%E8%A8%82%E4%BD%8D%E7%AE%A1%E7%90%86_TC-1.png),
         url(./img/feature-group1-afterbg.png),
-        url(./img/feature-group2-bg.png.jpg),
-        url(./img/feature-group3-bg.jpg),
-        url(./img/feature-group2-afterbg.png);
+        url(https://inline.company/wp-content/uploads/2023/12/New-official-website_v2_%E5%80%99%E4%BD%8D%E7%AE%A1%E7%90%86_TC.png),
+        url(https://inline.company/wp-content/uploads/2023/12/New-official-website_v2_%E9%A1%A7%E5%AE%A2%E7%AE%A1%E7%90%86_TC.png),
+        url(https://inline.company/wp-content/uploads/2024/07/New-official-website_v2_hp_background2.png);
     background-repeat: no-repeat;
     background-size: 
         40vw,
