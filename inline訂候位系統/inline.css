@@ -105,11 +105,11 @@ a:hover{
 .hero{
     padding: 5rem 7rem 5rem 9rem;
     color: #595959;
-    background-image: url(./img/hero-bg.jpg);
-    background-size: 60vw;
+    background-image: url(https://inline.company/wp-content/uploads/2023/12/New-official-website_v2_%E9%A6%96%E5%9C%96.png);
+    background-size: 100vw;
     background-repeat: no-repeat;
     /* background-position-y: bottom 40px; */
-    background-position:500px 10px;
+    background-position:  60% 20%;
 }
 
 .hero div{
@@ -141,7 +141,7 @@ a:hover{
     word-spacing: 1px;
     color: #333333;
     font-size: 17.3333px;
-    background-image: url(./img/coverage-bg.png);
+    background-image: url(https://inline.company/wp-content/uploads/2023/12/New-official-website_v2_country.png);
     background-repeat: no-repeat;
     background-size: contain;
 }
@@ -155,7 +155,7 @@ a:hover{
     padding-bottom: 200px;
     background-image: 
         url(https://inline.company/wp-content/uploads/2023/12/New-official-website_v2_%E8%A8%82%E4%BD%8D%E7%AE%A1%E7%90%86_TC-1.png),
-        url(./img/feature-group1-afterbg.png),
+        url(https://inline.company/wp-content/uploads/2024/07/New-official-website_v2_hp_background1.png),
         url(https://inline.company/wp-content/uploads/2023/12/New-official-website_v2_%E5%80%99%E4%BD%8D%E7%AE%A1%E7%90%86_TC.png),
         url(https://inline.company/wp-content/uploads/2023/12/New-official-website_v2_%E9%A1%A7%E5%AE%A2%E7%AE%A1%E7%90%86_TC.png),
         url(https://inline.company/wp-content/uploads/2024/07/New-official-website_v2_hp_background2.png);
@@ -165,12 +165,12 @@ a:hover{
         100vw,
         40vw,
         40vw,
-        97vw;
+        100vw;
     background-position: 
         13% 13%,
         0% 10%,
-        80% 56%,
-        13% 92%,
+        85% 56%,
+        15% 93%,
         13% 108%;    
 }
 
@@ -181,7 +181,7 @@ a:hover{
 }
 
 .feature-group{
-    padding: 1rem 5rem 0 9rem;
+    padding: 1rem 5rem 0 7.1rem;
     margin-bottom: 40px;
 }
 
